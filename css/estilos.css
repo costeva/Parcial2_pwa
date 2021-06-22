@@ -1,0 +1,36 @@
+.cabeza-logo {
+  background: url(../res/img/logo.png) no-repeat;
+  font-size: 0;
+}
+h1 {
+  font-size: 1.5em;
+  width: 95px;
+  height: 55px;
+  margin: 0;
+}
+
+.border-padding {
+  border: 1px solid #f1eef2;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.search-input {
+  width: 100%;
+  height: 55px;
+  padding-right: 60px;
+}
+
+
+.offline-status {
+  display: none;
+}
+
+.offline .offline-status {
+  display: block;
+}
+
+.offline .online-status {
+  display: none;
+}
