@@ -1,6 +1,6 @@
 // Nombre del Cache
 const cacheName = 'cache-version-1';
-/*
+
 // Archivos/Recursos que vamos a "cachear"
 const precache = [
   './js/tictactoe.js',
@@ -17,7 +17,7 @@ const precache = [
   './offline.html'
 ];
 
-*/
+
 // Instalación
 self.addEventListener('install', event => {
   // Hago a este SW el activo, matando otros

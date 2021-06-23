@@ -32,5 +32,5 @@ h1 {
 }
 
 .offline .online-status {
-  display: none;
+  display: block;
 }
