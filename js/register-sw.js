@@ -1,7 +1,7 @@
 
 // Chequeo si el browser puede usar Service Worker
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('../service-worker.js')
+  navigator.serviceWorker.register('./service-worker.js')
       .then(reg => {
         console.log("Service worker esta listo!");
       });
@@ -13,6 +13,7 @@ else {
 // Event Listener para Offline/ Online Status
 window.addEventListener('offline', event => {
   document.querySelector('body').classList.add('offline');
+
 });
 
 window.addEventListener('online', event => {
@@ -30,7 +31,7 @@ const isOnline = async () => {
   try {
     // El "cache no-store" es para que el fetch no guarde en cache el request
     // Si esto pasara, responderia el cache del browser y no el resultado de tener conexion
-    const response = await fetch('https://code.jquery.com/jquery-3.6.0.slim.min.js', { cache: "no-store" });
+    const response = await fetch('https://code.jquery.com/jquery-3.2.1.slim.min.js', { cache: "no-store" });
     console.log(response.json());
 
     if (response.url == "http://127.0.0.1:5500/offline.html") {
