@@ -9,13 +9,12 @@ const precache = [
   './js/jquery-3.2.1.slim.min.js',
   './js/popper.min.js',
   './js/bootstrap.min.js',
+  './manifest.webmanifest',
   './css/bootstrap.min.css',
   './res/img/nosotros.svg',
-  './res/img/dragon-s.png',
-  './res/img/evangelion.png',
-  './res/img/akira-s.png',
+  
   './css/estilos.css',
-  './manifest.webmanifest',
+  
   './contacto.html',
   './anime.html',
   './index.html',
