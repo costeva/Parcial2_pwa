@@ -27,7 +27,7 @@ window.addEventListener('online', event => {
 
 if (!navigator.onLine) {
   document.querySelector('body').classList.add('offline');
-  main.innerHTML = "<p>No se pueden obtener los dato, estas offline.</p>"
+  //main.innerHTML = "<p>No se pueden obtener los dato, estas offline.</p>"
 }
 
 
