@@ -10,6 +10,7 @@ const precache = [
   './js/popper.min.js',
   './js/bootstrap.min.js',
   './css/bootstrap.min.css',
+  './res/img/nosotros.svg',
   './css/estilos.css',
   './manifest.webmanifest',
   './contacto.html',
