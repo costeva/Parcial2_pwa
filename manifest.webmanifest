@@ -1,7 +1,7 @@
 {
     "theme_color": "#343a40",
     "background_color": "#ffffff",
-    "display": "browser",
+    "display": "standalone",
     "scope": "/",
     "start_url": "index.html",
     "name": "maniacom",
