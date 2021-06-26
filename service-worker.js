@@ -11,14 +11,12 @@ const precache = [
   './js/bootstrap.min.js',
   './manifest.webmanifest',
   './css/bootstrap.min.css',
-  './res/img/nosotros.svg',
-  
-  './css/estilos.css',
-  
+  './res/img/nosotros.svg', 
+  './css/estilos.css', 
   './contacto.html',
   './anime.html',
   './index.html',
-  './offline.html'
+  './offline.html',
 ];
 
 
