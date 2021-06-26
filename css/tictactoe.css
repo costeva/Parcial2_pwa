@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "animeace2_bld.otf";
+  src: url(../res/font/animeace2_bld.otf);
+}
+
+@font-face {
+  font-family: "animeace2_reg.otf";
+  src: url(../res/font/animeace2_reg.otf);
+}
+
+
+body{
+  font-family: "animeace2_reg.otf"!important;
+}
+
+h1, h2{
+  font-family: "animeace2_bld.otf"!important;
+}
 
 #board {
   margin: 30px auto 30px auto;
