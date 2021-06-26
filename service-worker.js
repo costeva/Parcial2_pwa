@@ -3,16 +3,15 @@ const cacheName = 'cache-version-1';
 
 // Archivos/Recursos que vamos a "cachear"
 const precache = [
-
   './js/tictactoe.js',
   './js/register-sw.js',
   './js/app.js',
   './js/jquery-3.2.1.slim.min.js',
   './js/popper.min.js',
   './js/bootstrap.min.js',
-  './js/bootstrap.min.js',
   './css/bootstrap.min.css',
   './css/estilos.css',
+  './manifest.webmanifest',
   './contacto.html',
   './anime.html',
   './index.html',
