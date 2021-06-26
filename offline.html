@@ -6,20 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/tictactoe.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="offline-status"></div>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-dark  bg-dark flex-row-reverse flex-md-row p-2">
+            <a class="navbar-brand" href="/">
+                <h1 class="cabeza-logo h6">Maniac</h1>
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#menuBurger"
+                aria-controls="menuBurger" aria-expanded="false" aria-label="activar el menu">
+
+
+                <i class="fas fa-bars"></i>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="menuBurger">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="anime.html">Anime <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contacto.html">Contacto <span class="sr-only">(current)</span></a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+
+
+    </header>
+<main>
+    <div id="juego"> </div>
     <h1 class="alert-danger">Estoy Offline y el cache fallo!</h1>
-    
-      <h1>Estas offline</h1>
       <div class="container">
-          <div class="jumbotron text-center">
-              <h1>TIC TAC TOE GAME </h1>
-          </div>
-      
+        
           <div id="chooseP">
               <h2>Choose a side</h2><br /><br>
               <button id="chooseP1" class="btn btn-primary">X</button> or <button id="chooseP2"
@@ -56,11 +88,45 @@
       
       </div>
   </div>
+</main>
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-twitter"></i></a>
+
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-instagram"></i></a>
+
+
+
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+
+        <p class="text-white">© 2020 Copyright: Maniac.com</p>
+    </div>
+    <!-- Copyright -->
+</footer>
     <script src="js/register-sw.js"></script>
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tictactoe.js"></script>
+
   </body>
 </html>

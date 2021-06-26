@@ -25,35 +25,38 @@ function llenardatos(animes) {
   const d = document;
 
   let divresultado = d.querySelector("#resultado");
+  
 
   for (let ani of animes) {
     //creo el div contenedor
     let ulresult = d.createElement("ul");
-    ulresult.classList.add("p-3");
+    ulresult.classList.add("p-0");
 
     //creo el li
     //falta id anime
     let liResult = d.createElement("li");
     liResult.id = "anime";
-    liResult.classList.add(
+    liResult.classList.add("mt-5",
       "row",
-      "justify-content-between",
-      "align-items-center",
-      "m-0",
-      "border",
-      "rounded",
-      "pb-2",
-      "pb-md-0"
+    "justify-content-between",
+    "align-items-center",
+    "m-0",
+    "pb-2",
+    "pb-md-0",
+      "liApi",
+     
     );
 
     //creo div que contiene la img
     let divContenImg = d.createElement("div");
-    divContenImg.classList.add("col-12", "col-md-3", "text-center");
+    divContenImg.classList.add( "col-12","p-0", "col-md-3", "text-center");
 
     //creo la imag
     let img = d.createElement("img");
 
     img.src = `${ani.image_url}`;
+    
+    img.classList.add("imgRidus");
     img.alt = `${ani.title}`;
 
     divContenImg.appendChild(img);
@@ -85,16 +88,20 @@ function llenardatos(animes) {
     liResult.appendChild(divContInfo);
 
     let divContBoton = d.createElement("div");
-    divContBoton.classList.add("col-6", "col-md-2");
+    divContBoton.classList.add("col-12", "col-md-2");
+    let spanScore= d.createElement("span");
+    spanScore.innerText="Score";
+    divContBoton.appendChild(spanScore);
     let pScore = d.createElement("p");
-
-    pScore.innerText = ani.score;
+    divContBoton.classList.add("score");
+    pScore.innerText =ani.score;
     //pSiniopsis.setAttribute( 'Score');COLOCAR ID SCORE
 
     divContBoton.appendChild(pScore);
 
     let btnlink = d.createElement("button");
     btnlink.innerText = "Ir a Myanimelist";
+    btnlink.classList.add("btn-enviar");
     btnlink.addEventListener("click", () => {
       window.location.href = ani.url;
     });
