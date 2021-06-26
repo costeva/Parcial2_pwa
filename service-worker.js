@@ -12,6 +12,7 @@ const precache = [
   './manifest.webmanifest',
   './css/bootstrap.min.css',
   './res/img/nosotros.svg', 
+  './res/img/logo.png', 
   './css/estilos.css', 
   './contacto.html',
   './anime.html',
