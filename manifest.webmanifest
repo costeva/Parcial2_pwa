@@ -3,7 +3,7 @@
     "background_color": "#ffffff",
     "display": "browser",
     "scope": "/",
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "name": "maniacom",
     "short_name": "mani",
     "description": "App de anime",
