@@ -13,6 +13,7 @@ const precache = [
   './css/bootstrap.min.css',
   './res/img/nosotros.svg', 
   './res/img/logo.png', 
+  './res/img/dragon-s.png', 
   './css/estilos.css', 
   './contacto.html',
   './anime.html',
