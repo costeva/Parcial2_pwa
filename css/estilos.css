@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "animeace2_bld.otf";
+  src: url(../res/font/animeace2_bld.otf);
+}
+
+@font-face {
+  font-family: "animeace2_reg.otf";
+  src: url(../res/font/animeace2_reg.otf);
+}
+
+
+body{
+  font-family: "animeace2_reg.otf"!important;
+}
+
+h1, h2{
+  font-family: "animeace2_bld.otf"!important;
+}
+
+
 .cabeza-logo {
   background: url(../res/img/logo.png) no-repeat;
   font-size: 0;
@@ -7,7 +27,17 @@ h1 {
   width: 95px;
   height: 55px;
   margin: 0;
+  font-family: "manga-bold";
 }
+.text-Cont {
+  font-size: 0.7em;
+  line-height: 2em;
+}
+.tex-Cont{
+  font-size: 0.8em;
+  line-height: 2em;
+}
+
 colorNav{
   color:white !important;
 }
