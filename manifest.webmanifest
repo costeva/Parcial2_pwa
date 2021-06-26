@@ -4,7 +4,7 @@
     "display": "browser",
     "scope": "/",
     "start_url": "/index.html",
-    "name": "Maniacom",
+    "name": "maniacom",
     "short_name": "mani",
     "description": "App de anime",
     "icons": [
