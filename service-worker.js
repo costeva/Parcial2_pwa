@@ -16,6 +16,7 @@ const precache = [
   './res/img/dragon-s.png', 
   './res/img/evangelion-s.png',
   './res/img/akira-s.png', 
+  './res/font/ArkansasComic-vm309.ttf',
   './css/estilos.css', 
   './contacto.html',
   './anime.html',

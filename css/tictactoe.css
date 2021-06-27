@@ -1,20 +1,10 @@
 @font-face {
-  font-family: "animeace2_bld.otf";
-  src: url(../res/font/animeace2_bld.otf);
+  font-family: "ArkansasComic-vm309.ttf";
+  src: url(../res/font/ArkansasComic-vm309.ttf);
 }
 
-@font-face {
-  font-family: "animeace2_reg.otf";
-  src: url(../res/font/animeace2_reg.otf);
-}
-
-
-body{
-  font-family: "animeace2_reg.otf"!important;
-}
-
-h1, h2{
-  font-family: "animeace2_bld.otf"!important;
+html{
+  font-family: "ArkansasComic-vm309.ttf"!important;
 }
 
 #board {
