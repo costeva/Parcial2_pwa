@@ -1,21 +1,11 @@
-@font-face {
-  font-family: "KOMIKAHB.ttf";
-  src: url(../res/font/KOMIKAHB.ttf);
-}
-
-
-@font-face {
-  font-family: "KOMIKAH.ttf";
-  src: url(../res/font/KOMIKAH_.ttf);
-}
 
 
 body{
-  font-family: "KOMIKAH.ttf"!important;
+  font-family: 'Lucida Sans';
 }
 
 h1, h2{
-  font-family: "KOMIKAHB.ttf"!important;
+  font-family: 'Times New Roman';
 }
 
 
