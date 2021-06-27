@@ -1,11 +1,4 @@
-@font-face {
-  font-family: "ArkansasComic-vm309.ttf";
-  src: url(../res/font/ArkansasComic-vm309.ttf);
-}
 
-html{
-  font-family: "ArkansasComic-vm309.ttf"!important;
-}
 
 #board {
   margin: 30px auto 30px auto;
