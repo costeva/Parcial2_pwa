@@ -1,11 +1,24 @@
 @font-face {
-  font-family: "ArkansasComic-vm309.ttf";
-  src: url(../res/font/ArkansasComic-vm309.ttf);
+  font-family: "KOMIKAHB.ttf";
+  src: url(../res/font/KOMIKAHB.ttf);
 }
 
-html{
-  font-family: "ArkansasComic-vm309.ttf"!important;
+
+@font-face {
+  font-family: "KOMIKAH.ttf";
+  src: url(../res/font/KOMIKAH_.ttf);
 }
+
+
+body{
+  font-family: "KOMIKAH.ttf"!important;
+}
+
+h1, h2{
+  font-family: "KOMIKAHB.ttf"!important;
+}
+
+
 
 
 .cabeza-logo {
