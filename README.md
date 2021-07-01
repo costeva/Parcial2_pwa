@@ -1,11 +1,4 @@
-# PWA Boilerplate
 
-## Installation
 
-- Clone the Repo
-- Modify the structure as your needs
-- Add your manifest.json
+Alexis Costedoat DWN3A PWA
 
-## Under the hood:
-- Bootstrap
-- Service Worker
