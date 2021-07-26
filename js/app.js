@@ -25,7 +25,6 @@ function llenardatos(animes) {
   const d = document;
 
   let divresultado = d.querySelector("#resultado");
-  
 
   for (let ani of animes) {
     //creo el div contenedor
@@ -36,26 +35,26 @@ function llenardatos(animes) {
     //falta id anime
     let liResult = d.createElement("li");
     liResult.id = "anime";
-    liResult.classList.add("mt-5",
+    liResult.classList.add(
+      "mt-5",
       "row",
-    "justify-content-between",
-    "align-items-center",
-    "m-0",
-    "pb-2",
-    "pb-md-0",
-      "liApi",
-     
+      "justify-content-between",
+      "align-items-center",
+      "m-0",
+      "pb-2",
+      "pb-md-0",
+      "liApi"
     );
 
     //creo div que contiene la img
     let divContenImg = d.createElement("div");
-    divContenImg.classList.add( "col-12","p-0", "col-md-3", "text-center");
+    divContenImg.classList.add("col-12", "p-0", "col-md-3", "text-center");
 
     //creo la imag
     let img = d.createElement("img");
 
     img.src = `${ani.image_url}`;
-    
+
     img.classList.add("imgRidus");
     img.alt = `${ani.title}`;
 
@@ -89,12 +88,12 @@ function llenardatos(animes) {
 
     let divContBoton = d.createElement("div");
     divContBoton.classList.add("col-12", "col-md-2");
-    let spanScore= d.createElement("span");
-    spanScore.innerText="Score";
+    let spanScore = d.createElement("span");
+    spanScore.innerText = "Score";
     divContBoton.appendChild(spanScore);
     let pScore = d.createElement("p");
     divContBoton.classList.add("score");
-    pScore.innerText =ani.score;
+    pScore.innerText = ani.score;
     //pSiniopsis.setAttribute( 'Score');COLOCAR ID SCORE
 
     divContBoton.appendChild(pScore);
@@ -109,7 +108,7 @@ function llenardatos(animes) {
     divContBoton.appendChild(btnlink);
     liResult.appendChild(divContBoton);
 
-    divresultado.appendChild(liResult);
+    ulresult.appendChild(liResult);
 
     divresultado.appendChild(ulresult);
   }
