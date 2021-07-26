@@ -21,7 +21,7 @@ h1 {
   font-family: "manga-bold";
 }
 
-.tex-Cont {
+.text-Cont {
   font-size: 0.8em;
   line-height: 2em;
 }
@@ -123,7 +123,7 @@ img {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1920px) {
-  .tex-Cont {
-    font-size: 2em;
+  .text-Cont {
+    font-size: 1em;
   }
 }
