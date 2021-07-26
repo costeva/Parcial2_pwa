@@ -127,6 +127,6 @@ img {
 
 @media only screen and (min-width: 769px) and (max-width: 1920px) {
   .tex-Cont {
-    font-size: 1em;
+    font-size: 2em;
   }
 }
