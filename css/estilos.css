@@ -1,18 +1,13 @@
-
-
-body{
-  font-family: 'Lucida Sans';
-
+body {
+  font-family: "Lucida Sans";
 }
 
-h1, h2{
-  font-family: 'Times New Roman';
+h1,
+h2 {
+  font-family: "Times New Roman";
   font-weight: bold;
   font-size: 2.5em;
 }
-
-
-
 
 .cabeza-logo {
   background: url(../res/img/logo.png) no-repeat;
@@ -29,15 +24,14 @@ h1 {
   font-size: 0.7em;
   line-height: 2em;
 }
-.tex-Cont{
+.tex-Cont {
   font-size: 0.8em;
   line-height: 2em;
 }
 
-colorNav{
-  color:white !important;
+colorNav {
+  color: white !important;
 }
-
 
 .search-input {
   width: 100%;
@@ -45,15 +39,13 @@ colorNav{
   padding-right: 60px;
 }
 
-#searchAgain{
-
-  background-color:#343a40 !important;
-  color:white;
+#searchAgain {
+  background-color: #343a40 !important;
+  color: white;
 }
 
-img{
+img {
   width: 100%;
-
 }
 
 .offline-status {
@@ -64,29 +56,26 @@ img{
   display: block;
   display: inline;
   background-color: yellow;
-
 }
 
 .offline .online-status {
   display: block;
 }
 
-.alert-danger{
+.alert-danger {
   display: inline;
 }
-#anime{
+#anime {
   list-style: none;
 }
 
-.formCont{
+.formCont {
   background-color: yellow;
   border-radius: 15px;
   box-shadow: rgb(0 0 0 / 20%) 0px 0px 10px;
 }
 
-.form-control{
-
-  
+.form-control {
   display: block;
   background: none;
   color: black;
@@ -97,40 +86,47 @@ img{
   border-radius: 0.9rem;
   background-color: white;
   border: 1px solid black;
- 
 }
 
-.sinopsis{
+.sinopsis {
   font-size: 1em;
   line-height: 2em;
 }
 
-.titulo{
+.titulo {
   font-size: 1.8em;
   margin-bottom: 1em;
 }
 
-.score{
+.score {
   font-weight: bold;
   font-size: 1.2em;
 }
-.btn-enviar{
-text-decoration: none;
-    border-radius: 37px;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.05rem;
-    padding: 1% 10%;
-    margin-bottom: 27px;
-    background: linear-gradient( to right, rgb(47, 79, 79) 0%, rgb(240, 255, 255) 100% );
-    box-shadow: 5px 5px 15px 0px rgb(46 61 73 / 20%);
-    background-size: 330% 100%;
-    transition: all 0.4s ease-in-out;}
+.btn-enviar {
+  text-decoration: none;
+  border-radius: 37px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 1% 10%;
+  margin-bottom: 27px;
+  background: linear-gradient(
+    to right,
+    rgb(47, 79, 79) 0%,
+    rgb(240, 255, 255) 100%
+  );
+  box-shadow: 5px 5px 15px 0px rgb(46 61 73 / 20%);
+  background-size: 330% 100%;
+  transition: all 0.4s ease-in-out;
+}
 
-    
-.liApi{
+.liApi {
   border: 1px solid #343a40;
   background-color: #dcff07;
-
 }
-    
+
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
+  .tex-Cont {
+    font-size: 1em;
+  }
+}
