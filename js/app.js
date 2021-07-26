@@ -99,6 +99,7 @@ function llenardatos(animes) {
     divContBoton.appendChild(pScore);
 
     let btnlink = d.createElement("button");
+
     btnlink.innerText = "Ir a Myanimelist";
     btnlink.classList.add("btn-enviar");
     btnlink.addEventListener("click", () => {

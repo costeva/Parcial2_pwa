@@ -126,4 +126,12 @@ img {
   .text-Cont {
     font-size: 1em;
   }
+
+  .btn-enviar:hover {
+    background: linear-gradient(
+      to right,
+      rgb(240, 255, 255),
+      rgb(47, 79, 79) 0%
+    );
+  }
 }
